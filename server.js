@@ -37,7 +37,7 @@ app.get('/', async (req, res, next) => {
     const response = await getRandomJoke();
 
     res.render('home', {
-      title: 'Random Jokes',
+      title: 'Random Dad Jokes',
       dadJoke: response,
     });
   } catch (err) {
