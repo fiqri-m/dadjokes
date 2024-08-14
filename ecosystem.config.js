@@ -1,9 +1,7 @@
 module.exports = {
   apps: [{
     name: 'dadjokes',
-    script: './server.js',
-    instances : "3",
-    exec_mode : "cluster"
+    script: './server.js'
   }],
 
     // Deployment Configuration
